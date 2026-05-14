@@ -1,0 +1,121 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', 'arial';
+    background-image: url(https://wallpapercave.com/wp/wp12475270.jpg);
+    Background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+label {
+    display: block;
+}
+
+.calculadora {
+    background-color: #2e2e2e; /* <- troque essa cor quando decidir */
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 320px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.peso{
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.altura{
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.peso label {
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+
+.altura label {
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+
+input  {
+    border-radius: 8px;
+    border: none;
+    height: 22px;
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input::placeholder{
+    padding: 8px;
+}
+.resultado {
+    margin-top: 6px;
+    margin-bottom: 23px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: none;
+}
+.classificar {
+    margin-top: 6px;
+    margin-bottom: 23px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: none;
+}
+button {
+    margin-top: 15px;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    border-width: 1px;
+    background-color: #e84c3d;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:active{
+background-color: #812921;
+}
